@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1436193571 source:d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\assert_error.cc
+	<string>
+	<sstream>
+	"assert_error.h"
+
+1436193570 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\assert_error.h
+	<stdexcept>
+
+1436193571 source:d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\block.cc
+	"asserts.h"
+	"endian.h"
+	"Block.h"
+
+1436193570 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\asserts.h
+	"here.h"
+	"assert_error.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\here.h
+	<string>
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\block.h
+	<string>
+	"e7types.h"
+	"e7const.h"
+	"e7filsys.h"
+	"e7fblk.h"
+	"e7ino.h"
+	"e7dir.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\e7types.h
+
+1436193570 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\e7const.h
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\e7filsys.h
+	"e7types.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\e7fblk.h
+	"e7types.h"
+	"e7filsys.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\e7ino.h
+	"e7types.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\e7dir.h
+	"e7types.h"
+
+1436193571 source:d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\cstr.cc
+	"cstr.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\cstr.h
+	<ostream>
+
+1436193571 source:d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\device.cc
+	"asserts.h"
+	"unix_error.h"
+	<fcntl.h>
+	<unistd.h>
+	<sys/stat.h>
+	<cstdio>
+	"Block.h"
+	"Device.h"
+	"e7const.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\unix_error.h
+	<stdexcept>
+	<string>
+	"here.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\device.h
+	<map>
+	"e7types.h"
+
+1436193570 source:d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\here.cc
+	<string>
+	<sstream>
+
+1436193571 source:d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\unix_error.cc
+	<cstring>
+	<cerrno>
+	<sstream>
+	"unix_error.h"
+
+1436741936 source:d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\main.cc
+	"ansi.h"
+	"asserts.h"
+	"unix_error.h"
+	"cstr.h"
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<unistd.h>
+	<fcntl.h>
+	"Device.h"
+	"Block.h"
+	<stddef.h>
+	<cmath>
+	<string.h>
+	<list>
+	"swap_endian.h"
+
+1436193570 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\ansi.h
+	"common.h"
+
+1436193571 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\common.h
+
+1436108625 d:\develop\cpp\besteuringsystemen\opdrachten\e7dump\swap_endian.h
+

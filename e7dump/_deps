@@ -1,0 +1,11 @@
+assert_error.o: assert_error.cc assert_error.h
+Block.o: Block.cc asserts.h here.h assert_error.h Block.h e7types.h \
+ e7const.h e7filsys.h e7fblk.h e7ino.h e7dir.h
+cstr.o: cstr.cc cstr.h
+Device.o: Device.cc asserts.h here.h assert_error.h unix_error.h Block.h \
+ e7types.h e7const.h e7filsys.h e7fblk.h e7ino.h e7dir.h Device.h
+here.o: here.cc
+main.o: main.cc ansi.h common.h asserts.h here.h assert_error.h \
+ unix_error.h cstr.h Device.h e7types.h Block.h e7const.h e7filsys.h \
+ e7fblk.h e7ino.h e7dir.h
+unix_error.o: unix_error.cc unix_error.h here.h

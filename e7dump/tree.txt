@@ -1,0 +1,38 @@
+---------------------------------------
+Directory tree on floppy User.n42:
+---------------------------------------
+inum nlink       mode        size     date-last-modified       name
+/:
+   2     5 drwxrwxrwx         816 Tue Mar 17 12:38:22 MET 1987 .
+   2     5 drwxrwxrwx         816 Tue Mar 17 12:38:22 MET 1987 ..
+   3     2 drwxr-xr-x          32 Mon Sep 09 23:22:54 MET DST 1985 lost+found
+  28     1 -rw-rw-r--           0 Thu Feb 19 16:03:12 MET 1987 abc
+   4     1 -rw-r--r--     1026086 Fri Feb 20 17:02:43 MET 1987 mega
+ 117     1 -rw-r--r--  1074253350 Thu Feb 19 15:59:35 MET 1987 gigafile
+   7     2 drwxrwxr-x         176 Tue Mar 17 12:40:03 MET 1987 filsys
+ 116     2 drwxrwxr-x         112 Tue Mar 17 09:27:04 MET 1987 eendir
+
+/lost+found:
+   3     2 drwxr-xr-x          32 Mon Sep 09 23:22:54 MET DST 1985 .
+   2     5 drwxrwxrwx         816 Tue Mar 17 12:38:22 MET 1987 ..
+
+/filsys:
+   7     2 drwxrwxr-x         176 Tue Mar 17 12:40:03 MET 1987 .
+   2     5 drwxrwxrwx         816 Tue Mar 17 12:38:22 MET 1987 ..
+   8     1 -r--r--r--        1463 Tue Mar 17 12:40:01 MET 1987 const.h
+  10     1 -r--r--r--         347 Tue Mar 17 12:40:01 MET 1987 fblk.h
+  11     1 -r--r--r--        1057 Tue Mar 17 12:40:01 MET 1987 filsys.h
+  12     1 -r--r--r--        1582 Tue Mar 17 12:40:02 MET 1987 ino.h
+  13     1 -r--r--r--        1331 Tue Mar 17 12:40:02 MET 1987 macro.h
+  14     1 -r--r--r--         114 Tue Mar 17 12:40:02 MET 1987 param.h
+  15     1 -r--r--r--        1004 Tue Mar 17 12:40:02 MET 1987 stat.h
+  16     1 -r--r--r--        3537 Tue Mar 17 12:40:02 MET 1987 tune.h
+  17     1 -r--r--r--        2316 Tue Mar 17 12:40:03 MET 1987 types.h
+
+/eendir:
+ 116     2 drwxrwxr-x         112 Tue Mar 17 09:27:04 MET 1987 .
+   2     5 drwxrwxrwx         816 Tue Mar 17 12:38:22 MET 1987 ..
+   9     1 -rw-rw-r--         713 Thu Feb 19 15:45:25 MET 1987 holes.c
+   5     1 -rwxrwxrwx        5847 Fri Feb 20 17:01:05 MET 1987 holes
+   6     1 -rw-rw-r--       28692 Fri Feb 20 17:03:27 MET 1987 core
+---------------------------------------

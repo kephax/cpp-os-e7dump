@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="checksizes" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="1">
+			<notes>
+				<![CDATA[A program to verify the sizes of the data types.]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Release">
+				<Option output="checksizes" prefix_auto="1" extension_auto="1" />
+				<Option object_output="." />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../Block.h" />
+		<Unit filename="../ansi.h" />
+		<Unit filename="../common.h" />
+		<Unit filename="../e7const.h" />
+		<Unit filename="../e7dir.h" />
+		<Unit filename="../e7fblk.h" />
+		<Unit filename="../e7filsys.h" />
+		<Unit filename="../e7ino.h" />
+		<Unit filename="../e7types.h" />
+		<Unit filename="checksizes.cc" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

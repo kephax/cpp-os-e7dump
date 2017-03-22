@@ -1,0 +1,56 @@
+/** @file opdracht.dox
+ * This file contains the doxygen code for this assignment
+ */
+/** \mainpage
+
+<p>In de file 'floppie.img' zit een image van een oude 720K floppy.
+	Schrijf een programma dat alle lowlevel systeemdata
+	van dat filesysteem afdrukt.
+	Je kan jouw versie vergelijken met de gegeven 'dump.txt' file.
+	De exacte layout van de uitvoer doet niet terzake
+	zolang het maar overzichtelijk is.</p>
+<p>Gevraagd wordt:
+<ol>
+<li>De parameters in het superblok
+<li>De attributen van de inode's die in gebruik zijn
+	(inclusief de informatie over de (indirectie) blokken
+	 die daar bij horen).
+	Ongebruikte inodes moeten overgeslagen worden.
+<li>Als een inode een directory voorstelt, dan moet je ook de inhoud
+	van de directory laten zien.
+	Ongebruikte en gedelete entries in een directory moet je weglaten.
+<li>Druk de lijst van vrije blokken ook af.
+</ol>
+
+<p>De inhoud van gewone files wordt dus _NIET_ gevraagd,
+	de inhoud van directories wel.</p>
+
+<p>Tip: Pak deze opdracht in kleine stapjes aan.
+	Alles tegelijk gaat echt niet lukken.</p>
+
+<p>Tip: If your compiler does not provide a endian.h
+	file, you can try using the one available in
+	the "diversen" map (just copy it).</p>
+
+<p>Tip: De map 'test' bevat nog een paar extra images
+	om je programma mee te testen.</p>
+
+<p>En kijk ook eens \b in de gegeven sources
+	en niet alleen naar deze doc files.</p>
+
+<p>P.S. De file 'tree.txt' laat een directory boom zien.
+	Dat wordt van jullie niet gevraagd.
+
+@note	Voordat je de eigenlijke opdracht gaat doen
+	moet je eerst het 'checksizes' programma in de
+	'test' map maken en uitvoeren om de instellingen
+	van e7types.h voor jouw compiler te controleren.
+
+<p>En kijk eens bij de examples voor wat inspiratie.</p>
+
+\example 1.voorbeeld.cc
+\example 2.charter.cc
+
+<p>&nbsp;</p>
+
+ */
